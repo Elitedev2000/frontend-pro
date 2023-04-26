@@ -89,3 +89,10 @@ console.log(100*'');       // 0     ---> truthy va falthy amallaridan 0 qiymat u
 
 // bigNumber = BigInt(3459475981749423462348469789419);
 // console.log(bigNumber);
+
+// Symbol  - asosan obyektlar bilan ishlatiladi
+
+let isSymbol = Symbol("frontend");
+let isString = Symbol("frontend");
+
+console.log(isSymbol === isString);
