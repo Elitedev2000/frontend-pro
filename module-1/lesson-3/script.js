@@ -40,16 +40,52 @@ console.log(100*'');       // 0     ---> truthy va falthy amallaridan 0 qiymat u
 // block scope - global ishlashni cheklaydi, var mustasno
 
 // {
-  //   let ism = "bobur";
-  // }
-  
-  // console.log(ism);
+//   let ism = "bobur";
+// }
 
-  
+// console.log(ism);
 
-  // ------------>>>>> DATA TYPES
+// ------------>>>>> DATA TYPES
 
+// --->>> 1
+// String
 
-  // --->>> 1
-  // String
+// let isName = "JavaScript";
+// let str = "Vue.js";
+// let framework = `9999`;
 
+// --->>> 2
+
+// Number
+
+// let age = 25;
+// let num = 0.0001;
+// let randoms = -888;
+
+// console.log(randoms);
+
+// --->>> 3
+
+// Boolean
+//         --- true = 1
+//         --- false = 0
+
+// console.log(11 > 10);
+// console.log(true + true);
+
+// --->>> 4
+
+// Undefined
+
+// let isIOS;
+
+// console.log(isIOS);
+
+// --->>> 5
+
+// null
+
+// BigInteger
+
+// bigNumber = BigInt(3459475981749423462348469789419);
+// console.log(bigNumber);
