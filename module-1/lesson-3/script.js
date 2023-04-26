@@ -33,16 +33,23 @@ console.log(100*'');       // 0     ---> truthy va falthy amallaridan 0 qiymat u
 
 */
 
-// ------------>>>>> DATA TYPES
-
 // const ism = "muhriddin"; // declare
 // ism = "husniddin"; // assign
 // const ism = "sardor"; // re declare
 
 // block scope - global ishlashni cheklaydi, var mustasno
 
-{
-  let ism = "bobur";
-}
+// {
+  //   let ism = "bobur";
+  // }
+  
+  // console.log(ism);
 
-console.log(ism);
+  
+
+  // ------------>>>>> DATA TYPES
+
+
+  // --->>> 1
+  // String
+
