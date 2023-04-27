@@ -45,6 +45,10 @@ let b = 13;
 
 // console.log(typeof number);
 
-
-
 // ------- >>>> Truthy and Falthy
+
+if (11 > 10) {
+    
+}else{
+
+}
