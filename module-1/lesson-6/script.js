@@ -2,5 +2,4 @@
 
 // ----->>>> Object
 
-
-
+// literal object creation
