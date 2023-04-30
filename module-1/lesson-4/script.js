@@ -1,7 +1,7 @@
 "use strict";
 
-let a = 12;
-let b = 13;
+// let a = 12;
+// let b = 13;
 
 // a += b;
 
@@ -47,8 +47,10 @@ let b = 13;
 
 // ------- >>>> Truthy and Falthy
 
-if (11 > 10) {
-    
-}else{
+let a
 
+if (11 > 10) {
+  console.log("ha");
+} else {
+  console.log("yoq");
 }
