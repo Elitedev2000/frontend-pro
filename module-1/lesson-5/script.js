@@ -62,9 +62,32 @@
 
 // Do While
 
-let n = 1;
+// let n = 1;
 
-do {
-  n++;
-  console.log(n);
-} while (n < 10);
+// do {
+//   n++;
+//   console.log(n);
+// } while (n < 10);
+
+// For
+
+// for (let n = 1; n <= 20; n++) {
+//   console.log(n);
+// }
+
+// ----->>>>> FUNCTION
+
+// --->> Function Declaration
+
+// camelCase --
+// snake_case --
+// PascalCase
+
+// template literal
+
+function sayMyName(a, b) {
+  console.log("Umidjon");
+  console.log(`${a}ning kasbi ${b}`); // ES6
+}
+
+sayMyName("Murodjon", "UX Designer");
