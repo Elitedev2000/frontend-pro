@@ -85,9 +85,48 @@
 
 // template literal
 
-function sayMyName(a, b) {
-  console.log("Umidjon");
-  console.log(`${a}ning kasbi ${b}`); // ES6
-}
+// function sayMyName(a, b) {
+//   console.log("Umidjon");
+//   console.log(`${a}ning kasbi ${b}`); // ES6
+// }
 
-sayMyName("Murodjon", "UX Designer");
+// sayMyName("Murodjon", "UX Designer");
+
+// --->> Function Expression (yuqorida chaqirib bo'lmaydi)
+
+// const calc = function (a, b, c) {
+//   console.log(a);
+//   console.log(b);
+//   console.log(c);
+// };
+
+// const calc = function (a, b, c) {
+//   return a + b + c;
+// };
+
+// calc("Men", "Sen", "Biz");
+
+// const letter = calc;
+// const test = letter;
+
+// letter("abbo", "beko", "coli");
+
+// --->> Arrow Function (yuqorida chaqirib bo'lmaydi)
+
+//ES6
+
+// const message = (a, b, c) => {
+//   console.log(a, b, c);
+// };
+
+// const message = (a, b, c) => console.log(a, b, c);
+
+// message("uy", "pul", "oy");
+
+// const message = (a, b, c) => a + b + c;
+
+// console.log(message(2, 2, 4));
+
+// const app = message;
+
+// app("yur", "tur", "bor");
