@@ -130,3 +130,10 @@
 // const app = message;
 
 // app("yur", "tur", "bor");
+
+// default parameter
+
+// const app = (a = "Vue") => {
+//   console.log(a);
+// };
+// app();
