@@ -30,18 +30,41 @@
 
 // isBuy ? console.log("ha") : console.log("yoq");
 
-let day = 4;
+// let day = 4;
 
-switch (day) {
-  case 1:
-    console.log("Monday");
-    break;
-  case 2:
-    console.log("Tuesday");
-    break;
-  case 4:
-    console.log("Wednesday");
-    break;
-  default:
-    console.log("not found");
-}
+// switch (day) {
+//   case 1:
+//     console.log("Monday");
+//     break;
+//   case 2:
+//     console.log("Tuesday");
+//     break;
+//   case 4:
+//     console.log("Wednesday");
+//     break;
+//   default:
+//     console.log("not found");
+// }
+
+// --->>>>>>
+
+// While, Do while, For
+
+// While
+
+// let n = 10;
+
+// while (n <= 100) {
+//   if (n % 2 == 0) {
+//     console.log(n);
+//   }
+// }
+
+// Do While
+
+let n = 1;
+
+do {
+  n++;
+  console.log(n);
+} while (n < 10);
