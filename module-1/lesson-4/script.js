@@ -75,7 +75,7 @@
 
 // --->>> Math
 
-let num = 12.34;
+// let num = 12.34;
 
 // console.log(Math.floor(num)); // < yaxlitlaydi
 
@@ -100,15 +100,15 @@ let num = 12.34;
 // console.log(Math.random()*10);
 // console.log(Math.trunc(Math.random() * 100));
 
-// ---->>>>> COnditional operator " if else"
+// ---->>>>> Conditional operator " if else"
 
-let light = "yellow";
-let startedAt = 25;
+// let light = "yellow";
+// let startedAt = 25;
 
-if (light === "green") {
-  console.log("Go!");
-} else if (light === "yellow") {
-  console.log("Attention");
-} else {
-  console.log("STOP");
-}
+// if (light === "green") {
+//   console.log("Go!");
+// } else if (light === "yellow") {
+//   console.log("Attention");
+// } else {
+//   console.log("STOP");
+// }
