@@ -35,17 +35,20 @@
 
 // console.log(person["age"]);
 
-let selectLang = prompt("Select language");
+// let selectLang = prompt("Select language");
 
-let language = {
-  uz: {
-    Home: "Bosh sahifa",
-    About: "Biz haqimizda",
-  },
-  en: {
-    Home: "Home",
-    About: "About",
-  },
-};
+// let language = {
+//   uz: {
+//     Home: "Bosh sahifa",
+//     About: "Biz haqimizda",
+//   },
+//   en: {
+//     Home: "Home",
+//     About: "About",
+//   },
+// };
 
-console.log(language[selectLang]);
+// console.log(language[selectLang]);
+
+
+console.log(Math);
