@@ -145,6 +145,8 @@
 
 let arr = [];
 
+let array2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
 // arr[0] = "javascript";
 // arr[1] = "php";
 // arr[2] = "nodejs";
@@ -152,12 +154,47 @@ let arr = [];
 
 // delete arr[2];
 
-arr.unshift("angular"); // boshidan qo'shadi
+// arr.unshift("angular"); // boshidan qo'shadi
 
-arr.shift(); // boshidan o'chiradi
+// arr.shift(); // boshidan o'chiradi
 
-arr.push("java", "laravel"); // oxiridan qo'shadi
+// arr.push("java", "laravel"); // oxiridan qo'shadi
 
-arr.pop(); // oxiridan o'chiradi
+// arr.pop(); // oxiridan o'chiradi
 
-console.log(arr);
+// console.log(arr);
+
+// let array3 = array2.concat(arr); // ikki arrayni bir-birga qo'shadi
+
+// let array4 = array2.concat(arr).concat(array2).concat("delphi", "c++", "xml");
+
+// console.log(array4);
+// console.log(array3);
+
+// slice --->> arraydan slice(indexdan, indexgacha) tartibida nusxa oladi, asosiy arrayga ta'sir qilmaydi
+
+// let arrCopy = array2.slice(0, 7);
+
+// console.log(arrCopy);
+
+// splice --->> (indexdan, n ta) tartibida arraydan kesib oladi, asosiy arrayga ta'sir qiladi
+
+// console.log(array2.splice(0, 6));
+// console.log(array2);
+
+// indexOf // element indexini aniqlaydi
+
+// console.log(array2.indexOf(10));
+
+// includes --->> arrayda bor yoki yo'qligini tekshiradi
+
+// console.log(array2.includes('php'));
+// console.log(array2.includes(4));
+
+// join() --->> array to string
+
+// console.log(array2.join(" ")); // tirnoqlar orasiga yozilgan amalni stringlar orasiga qo'yib beradi
+
+// lenght --->> array elementlari sonini aniqlaydi
+
+console.log(array2.length);
