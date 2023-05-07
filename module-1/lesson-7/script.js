@@ -53,4 +53,35 @@
 
 ///// ------>>>>> DOM
 
-console.log(window.document);
+// let title = document.getElementById("text");
+
+// let title = document.getElementsByClassName("text"); // HTML Collection deb ataladi
+
+// let title = document.getElementsByTagName("h1");
+
+// let title = document.getElementsByTagName("text");
+
+// let title = document.querySelector("#text");
+
+// let title = document.querySelector("h1");
+
+// let title = document.querySelectorAll("h1");
+
+let title = document.querySelector(".text");
+
+// console.log(title.parentNode); // body
+// console.log(title.parentNode.parentNode); // html
+// console.log(title.parentNode.parentNode.parentNode); // html document
+// console.log(title.parentNode.parentNode.parentNode.parentNode); // null
+
+// console.log(title.parentElement); // parentNode dek ishlaydi
+
+// console.log(title.textContent); // document va html matnlarini ko'rsatadi
+
+// console.log(title.innerHTML); // document va html taglarini ham qo'shib ko'rsatadi
+
+console.log(title.previousElementSibling); // o'zidan avvalgi element - tagni ko'rsatadi
+
+console.log(title.nextElementSibling); // o'zidan keyingi element - tagni ko'rsatadi
+
+console.log((title.nextElementSibling.style.background = "red"));
