@@ -143,9 +143,9 @@
 
 // console.log(week);
 
-let arr = [];
+// let arr = [];
 
-let array2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let array2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 // arr[0] = "javascript";
 // arr[1] = "php";
@@ -197,4 +197,15 @@ let array2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 // lenght --->> array elementlari sonini aniqlaydi
 
-console.log(array2.length);
+// console.log(array2.length);
+
+//// ----->>>> String
+
+let str = "Javascript";
+
+console.log(str.toLowerCase()); // kichik harf bilan
+
+console.log(str.toUpperCase()); // katta harf bilan
+
+console.log(str.length); // agregat funksiya - uzunligini qaytaradi
+
