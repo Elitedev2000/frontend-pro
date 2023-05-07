@@ -80,8 +80,8 @@ let title = document.querySelector(".text");
 
 // console.log(title.innerHTML); // document va html taglarini ham qo'shib ko'rsatadi
 
-console.log(title.previousElementSibling); // o'zidan avvalgi element - tagni ko'rsatadi
+// console.log(title.previousElementSibling); // o'zidan avvalgi element - tagni ko'rsatadi
 
-console.log(title.nextElementSibling); // o'zidan keyingi element - tagni ko'rsatadi
+// console.log(title.nextElementSibling); // o'zidan keyingi element - tagni ko'rsatadi
 
 console.log((title.nextElementSibling.style.background = "red"));
