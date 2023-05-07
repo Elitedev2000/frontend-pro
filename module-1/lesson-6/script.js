@@ -201,11 +201,41 @@
 
 //// ----->>>> String
 
-let str = "Javascript";
+// let str = prompt("str kiriting");
 
-console.log(str.toLowerCase()); // kichik harf bilan
+// console.log(str.toLowerCase()); // kichik harf bilan
 
-console.log(str.toUpperCase()); // katta harf bilan
+// console.log(str.toUpperCase()); // katta harf bilan
 
-console.log(str.length); // agregat funksiya - uzunligini qaytaradi
+// console.log(str.length); // agregat funksiya - uzunligini qaytaradi
 
+// console.log(str.trimStart()); // boshidan bo'sh joylarni o'chiradi
+// console.log(str.trimEnd()); // oxiridan bo'sh joylarni o'chiradi
+
+// if (str.trim().length) {
+//   console.log("value: ", str);
+// } else {
+//   console.log("str length: ", str.length);
+// }
+
+// let str = "Java Script";
+
+// console.log(str.substring(3,6)); // (indexdan, indexgacha)  qirqib oladi, va asosga ta'sir qilmaydi
+
+// console.log(str.search('a')); // string ichidan qidirib topadi
+
+// console.log(str.match(/a/gi)); // RegEx metodi stringni ichidan ayni bir so'z yoki jumlani topib beradi
+
+// console.log(str.split()); // arrayga solib beradi
+// console.log(str.split("")); // har bir harf va joyni alohida element sifatida arrayga solib beradi
+// console.log(str.split(" ")); // har bir so'zni alohida element arrayga solib beradi
+
+let str = "Java Script juda zo'r dasturlash tili, Javadan ham zo'r";
+
+// let array2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+
+// let newArr = array2.join("-");
+
+// console.log(newArr.split("-"));
+
+console.log(str.charAt(1)); // indexi kiritilgan harf yoki elementni olib beradi
