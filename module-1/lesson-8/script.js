@@ -9,6 +9,8 @@ let text = document.querySelector(".text"),
 // nodeType
 // className\
 
+///////////// ----->>> CSSStyleDeclaration -> har qanday elementda mavjud bo'sh qiymatlar obyekti
+
 // getAttribute -> har qanday atribut qiymatini olib bera oladi
 
 ////// setAttribute('nameAttr', value) ->  har qanday atributga qiymat tayinlaydi
@@ -35,12 +37,18 @@ let text = document.querySelector(".text"),
 // console.log(text.style);
 // text.style.color = "red";
 
-text.style.cssText = "background-color: aqua; color:red; margin:30px";
+// text.style.cssText = "background-color: aqua; color:red; margin:30px";
 
-////// onClick, onChange, OnIn
+// ////// onClick, onChange, OnIn
 
-input.oninput = function () {
-  console.log(input.value);
-};
+// input.oninput = function () {
+//   console.log(input.value);
 
-console.log(text.style);
+//   if (input.value.trim().length > 6) {
+//     input.style.border = "4px solid green";
+//   } else {
+//     input.style.border = "4px solid red";
+//   }
+// };
+
+// console.log(text.style);
