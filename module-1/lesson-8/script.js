@@ -57,7 +57,16 @@
 
 let photos = document.querySelectorAll(".cover");
 
-photos[0].dataset.photo = "photo";
+photos[0].dataset.types = "photo";
+photos[1].dataset.types = "photo";
+
+photos[2].dataset.types = "art";
+photos[3].dataset.types = "art";
+
+photos[4].dataset.types = "art";
+photos[5].dataset.types = "art";
+
 
 // console.log(photos);
 console.log(photos[0]);
+console.log(photos[1]);
