@@ -3,5 +3,12 @@
 let text = document.querySelectorAll(".text");
 
 // nodeName
+// tagName
+// nodeType
+// className\
 
-console.log(text);
+// getAttribute -> har qanday atribut qiymatini olib bera oladi
+
+// console.log(text[0].nodeType);
+
+console.log(text.getAttribute("name"));
