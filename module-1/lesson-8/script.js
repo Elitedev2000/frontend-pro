@@ -66,6 +66,8 @@ photos[3].dataset.types = "art";
 photos[4].dataset.types = "art";
 photos[5].dataset.types = "art";
 
+photos[6].dataset.types = "music";
+photos[7].dataset.types = "music";
 
 // console.log(photos);
 console.log(photos[0]);
