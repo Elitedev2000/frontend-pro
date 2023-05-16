@@ -1,8 +1,8 @@
 "use strict";
 
-let text = document.querySelector(".text"),
-  input = document.querySelector("input"),
-  btn = document.querySelector(".btn");
+// let text = document.querySelector(".text"),
+//   input = document.querySelector("input"),
+//   btn = document.querySelector(".btn");
 
 // nodeName
 // tagName
@@ -52,3 +52,12 @@ let text = document.querySelector(".text"),
 // };
 
 // console.log(text.style);
+
+/////// dataSet stributi -> ma'lumotlarni unikal qilish uchun kerak
+
+let photos = document.querySelectorAll(".cover");
+
+photos[0].dataset.photo = "photo";
+
+// console.log(photos);
+console.log(photos[0]);
