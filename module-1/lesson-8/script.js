@@ -167,19 +167,20 @@ let images = [
   },
 ];
 
-for (let i = 0; i < images.length; i++) {
-  console.log(images[i]);
-}
-
 let gallery = document.querySelector(".gallery");
 
-function addElement(id) {
+function addElement(obj) {
   let img = document.createElement("img");
-  img.setAttribute("src", `https:picsum.photos/id/3${id}/300/300`);
-  img.setAttribute("alt", `photo ${1 + id}`);
+  img.setAttribute("src", `${obj.url}`);
+  img.setAttribute("alt", `${obj.title}`);
+  img.dataset.category = obj.category;
   gallery.append(img);
 }
 
 // for (let i = 0; i < 100; i++) {
 //   addElement(i);
 // }
+
+for (let i = 0; i < images.length; i++) {
+  addElement(images[i]);
+}
