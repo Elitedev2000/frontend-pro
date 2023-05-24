@@ -84,12 +84,29 @@ console.log(select.hasAttribute("title"));
 // append ->  elementni oxiriga qo'shadi
 // prepend -> elementni boshiga qo'shadi
 
+// let gallery = document.querySelector(".gallery");
+
+// let img = document.createElement("img");
+
+// img.setAttribute("src", "https://picsum.photos/id/311/300/300");
+
+// img.setAttribute("alt", "photo1");
+
+// gallery.append(img);
+// gallery.prepend(img);
+
+///// -> best practice
+
 let gallery = document.querySelector(".gallery");
 
-let img = document.createElement("img");
+function addElement(id) {
+    console.log(id);
+  let img = document.createElement("img");
+  img.setAttribute("src", "https://picsum.photos/id/310/300/300");
+  img.setAttribute("alt", "photo 1");
+  gallery.append(img);
+}
 
-img.setAttribute("src", "https://picsum.photos/id/311/300/300");
-
-img.setAttribute("alt", "photo1");
-
-gallery.append(img);
+for (let i = 0; i < 100; i++) {
+  addElement(i);
+}
