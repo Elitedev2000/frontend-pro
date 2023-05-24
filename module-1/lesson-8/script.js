@@ -101,11 +101,11 @@ let gallery = document.querySelector(".gallery");
 
 function addElement(id) {
   let img = document.createElement("img");
-  img.setAttribute("src", `https://picsum.photos/id/3${id}/300/300`);
-  img.setAttribute("alt", "photo 1");
+  img.setAttribute("src", `https:picsum.photos/id/3${id}/300/300`);
+  img.setAttribute("alt", `photo ${1 + id}`);
   gallery.append(img);
 }
 
-for (let i = 0; i < 99; i++) {
+for (let i = 0; i < 100; i++) {
   addElement(i);
 }
