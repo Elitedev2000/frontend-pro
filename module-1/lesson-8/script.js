@@ -15,6 +15,8 @@
 
 ////// setAttribute('nameAttr', value) ->  har qanday atributga qiymat tayinlaydi
 
+////// hasAttribute -> atribut bor yoki yo'qligini tekshiradi
+
 ////// console.log(text[0].nodeType);
 
 // console.log(text.getAttribute("name"));
@@ -56,6 +58,7 @@
 /////// dataSet stributi -> ma'lumotlarni unikal qilish uchun kerak
 
 let photos = document.querySelectorAll(".cover");
+let select = document.querySelector("#photos");
 
 photos[0].dataset.types = "photo";
 photos[1].dataset.types = "photo";
@@ -72,3 +75,5 @@ photos[7].dataset.types = "music";
 // console.log(photos);
 console.log(photos[0]);
 console.log(photos[1]);
+
+console.log(select.hasAttribute('title'));
