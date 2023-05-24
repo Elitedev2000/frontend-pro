@@ -95,7 +95,77 @@
 // gallery.append(img);
 // gallery.prepend(img);
 
+// let image = {
+//   url: "https://picsum.photos/id/311/300/300",
+//   category: "photo",
+//   id: 1,
+//   title: "this is a photo",
+// };
+
 ///// -> best practice
+
+let images = [
+  {
+    url: "https://picsum.photos/id/311/300/300",
+    category: "photo",
+    id: 1,
+    title: "this is a photo",
+  },
+  {
+    url: "https://picsum.photos/id/312/300/300",
+    category: "photo",
+    id: 2,
+    title: "this is a photo",
+  },
+  {
+    url: "https://picsum.photos/id/313/300/300",
+    category: "photo",
+    id: 3,
+    title: "this is a photo",
+  },
+  {
+    url: "https://picsum.photos/id/313/300/300",
+    category: "art",
+    id: 4,
+    title: "this is a photo",
+  },
+  {
+    url: "https://picsum.photos/id/314/300/300",
+    category: "art",
+    id: 5,
+    title: "this is a photo",
+  },
+  {
+    url: "https://picsum.photos/id/315/300/300",
+    category: "art",
+    id: 6,
+    title: "this is a photo",
+  },
+  {
+    url: "https://picsum.photos/id/316/300/300",
+    category: "tech",
+    id: 7,
+    title: "this is a photo",
+  },
+  {
+    url: "https://picsum.photos/id/317/300/300",
+    category: "tech",
+    id: 8,
+    title: "this is a photo",
+  },
+  {
+    url: "https://picsum.photos/id/318/300/300",
+    category: "tech",
+    id: 9,
+    title: "this is a photo",
+  },
+  {
+    url: "https://picsum.photos/id/319/300/300",
+    category: "sport",
+    id: 10,
+    title: "this is a photo",
+  },
+];
 
 let gallery = document.querySelector(".gallery");
 
@@ -106,6 +176,6 @@ function addElement(id) {
   gallery.append(img);
 }
 
-for (let i = 0; i < 100; i++) {
-  addElement(i);
-}
+// for (let i = 0; i < 100; i++) {
+//   addElement(i);
+// }
