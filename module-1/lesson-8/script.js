@@ -76,4 +76,20 @@ photos[7].dataset.types = "music";
 console.log(photos[0]);
 console.log(photos[1]);
 
-console.log(select.hasAttribute('title'));
+console.log(select.hasAttribute("title"));
+
+////// dynamic -> ma'lumotlarni oson va ozgina kod bilan yozish
+
+// createElement -> dinamik element yasaydi
+// append ->  elementni oxiriga qo'shadi
+// prepend -> elementni boshiga qo'shadi
+
+let gallery = document.querySelector(".gallery");
+
+let img = document.createElement("img");
+
+img.setAttribute("src", "https://picsum.photos/id/311/300/300");
+
+img.setAttribute("alt", "photo1");
+
+gallery.append(img);
