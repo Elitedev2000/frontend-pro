@@ -100,7 +100,6 @@
 let gallery = document.querySelector(".gallery");
 
 function addElement(id) {
-  console.log(id);
   let img = document.createElement("img");
   img.setAttribute("src", `https://picsum.photos/id/3${id}/300/300`);
   img.setAttribute("alt", "photo 1");
