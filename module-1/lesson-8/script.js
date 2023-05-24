@@ -57,26 +57,26 @@
 
 /////// dataSet stributi -> ma'lumotlarni unikal qilish uchun kerak
 
-let photos = document.querySelectorAll(".cover");
-let select = document.querySelector("#photos");
+// let photos = document.querySelectorAll(".cover");
+// let select = document.querySelector("#photos");
 
-photos[0].dataset.types = "photo";
-photos[1].dataset.types = "photo";
+// photos[0].dataset.types = "photo";
+// photos[1].dataset.types = "photo";
 
-photos[2].dataset.types = "art";
-photos[3].dataset.types = "art";
+// photos[2].dataset.types = "art";
+// photos[3].dataset.types = "art";
 
-photos[4].dataset.types = "art";
-photos[5].dataset.types = "art";
+// photos[4].dataset.types = "art";
+// photos[5].dataset.types = "art";
 
-photos[6].dataset.types = "music";
-photos[7].dataset.types = "music";
+// photos[6].dataset.types = "music";
+// photos[7].dataset.types = "music";
 
-// console.log(photos);
-console.log(photos[0]);
-console.log(photos[1]);
+// // console.log(photos);
+// console.log(photos[0]);
+// console.log(photos[1]);
 
-console.log(select.hasAttribute("title"));
+// console.log(select.hasAttribute("title"));
 
 ////// dynamic -> ma'lumotlarni oson va ozgina kod bilan yozish
 
@@ -100,13 +100,13 @@ console.log(select.hasAttribute("title"));
 let gallery = document.querySelector(".gallery");
 
 function addElement(id) {
-    console.log(id);
+  console.log(id);
   let img = document.createElement("img");
-  img.setAttribute("src", "https://picsum.photos/id/310/300/300");
+  img.setAttribute("src", `https://picsum.photos/id/3${id}/300/300`);
   img.setAttribute("alt", "photo 1");
   gallery.append(img);
 }
 
-for (let i = 0; i < 100; i++) {
+for (let i = 0; i < 99; i++) {
   addElement(i);
 }
