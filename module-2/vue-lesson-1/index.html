@@ -25,6 +25,32 @@
             <button class="btn btn-success" v-on:click="decr">DECR</button>
         </div>
 
+        <div class="wrapper p-5 w-50 mx-auto mt-5 shadow text-center">
+            <div class="d-flex gap-2">
+                <input type="text" class="form-control p-3" placeholder="Enter task title">
+
+                <button class="btn btn-primary mt-4">Add task</button>
+            </div>
+
+            <table class="table table-striped mt-4 table-hover border-collapse table-bordered">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Task title</th>
+                        <th>delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Vue Option API</td> <td><button class="btn btn-danger">remove</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+
 
     </div>
 

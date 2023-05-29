@@ -4,6 +4,11 @@ const app = Vue.createApp(
             return {
                 isName: "Vue js development",
                 number: 0,
+                todo: [
+                    { id: 1, title: 'Vue2 vs Vue3' },
+                    { id: 2, title: 'Vue3 vs Vuex' }.
+                ],
+                taskTitle: "",
             }
         },
 
@@ -13,6 +18,12 @@ const app = Vue.createApp(
             },
             decr() {
                 this.number -= 1;
+            },
+            addNewTask() {
+                let task = {
+                    id: Date.now(),
+                    title: this.taskTitle
+                }
             }
         }
     }
