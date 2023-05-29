@@ -2,11 +2,22 @@ const app = Vue.createApp(
     {
         data() {
             return {
-                isName: "Vue js development"
+                isName: "Vue js development",
+                number: 0,
+            }
+        },
+
+        methods: {
+            incr() {
+                this.number += 1;
+            },
+            decr() {
+                this.number -= 1;
             }
         }
     }
 );
 
-console.log(window);
-console.log(Vue);
+let div = document.querySelector('#app');
+
+app.mount(div);

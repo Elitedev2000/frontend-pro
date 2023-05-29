@@ -9,15 +9,30 @@
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js">
+    <link rel="stylesheet" href=" 	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
 </head>
 
 <body>
 
 
+    <div id="app">
 
 
-    <div id="app"></div>
+        <div class="wrapper p-5 w-50 mx-auto mt-5 shadow text-center">
+            <h1>{{ isName }}</h1>
+            <h2>{{ number }}</h2>
+            <button class="btn btn-success" v-on:click="incr">INCR</button>
+            <button class="btn btn-success" v-on:click="decr">DECR</button>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
 
     <script type="module" src="app.js"></script>
 </body>
