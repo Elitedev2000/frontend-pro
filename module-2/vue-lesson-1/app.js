@@ -22,7 +22,12 @@ const app = Vue.createApp(
             addNewTask() {
                 let task = {
                     id: Date.now(),
-                    title: this.taskTitle
+                    title: this.taskTitle,
+                };
+                if (!task.title.trim().length == 0) {
+                    this.todo.push(task);
+                } else {
+                    alert('Please fill the task title')
                 }
             }
         }
