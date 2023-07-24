@@ -35,19 +35,30 @@ if ((ball >= 150) || (ielts >= 5 && usd >= 5000)) {
 
 // 4 === 3 ? alert("success") : alert("no success");
 
-let day = 4;
+// let day = 4;
 
-switch (day) {
-  case 1:
-    console.log("Monday");
-    break;
-  case 2:
-    console.log("Tuesday");
-    break;
-  case 4:
-    console.log("Friday");
-    break;
+// switch (day) {
+//   case 1:
+//     console.log("Monday");
+//     break;
+//   case 2:
+//     console.log("Tuesday");
+//     break;
+//   case 4:
+//     console.log("Friday");
+//     break;
 
-  default:
-    console.log("not found");
-}
+//   default:
+//     console.log("not found");
+// }
+
+// while, do while, for
+
+// let n = 10;
+
+// while (n < 100) {
+//   if (n % 2 == 0) {
+//     console.log(n); 
+//   }
+//   n++;
+// }
