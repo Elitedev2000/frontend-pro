@@ -54,7 +54,7 @@ if ((ball >= 150) || (ielts >= 5 && usd >= 5000)) {
 
 // while, do while, for
 
-let n = 10;
+// let n = 10;
 
 // while (n < 100) {
 //   if (n % 2 == 0) {
@@ -67,3 +67,8 @@ let n = 10;
 //   n++;
 //   console.log(n);
 // } while (n < 10);
+
+
+// for
+
+for()
