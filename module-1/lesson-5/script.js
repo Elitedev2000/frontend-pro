@@ -68,12 +68,17 @@ if ((ball >= 150) || (ielts >= 5 && usd >= 5000)) {
 //   console.log(n);
 // } while (n < 10);
 
-
 // for
 
 // for (let n = 0; n < 2; n++) {
 //   console.log(n);
 // }
 
-
 // --> function declaration
+
+// function sayMyName(a, b, c) {
+//   console.log("Umidjon" + c);
+//   console.log(`${a}ning kasbi ${b}`); // ES6
+// }
+
+// sayMyName('Samandar', 'Programmer', 'web')
