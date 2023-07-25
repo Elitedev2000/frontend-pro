@@ -92,10 +92,10 @@ if ((ball >= 150) || (ielts >= 5 && usd >= 5000)) {
 // ---> function expression
 
 // const calc = function (a, b, c) {
-//   console.log(a);
-//   console.log(b);
-//   console.log(c);
+//   return a + b + c;
 // };
+
+// console.log(calc(12, 12, 13));
 
 // calc("java", "vue", "nuxt");
 
@@ -110,9 +110,23 @@ if ((ball >= 150) || (ielts >= 5 && usd >= 5000)) {
 // ---> arrow function
 
 // const message = (a, b, c) => {
-//   console.log(a, b, c);
+//   return a + b + c;
 // };
 
-// message("ab", "bb", "cb");
+// const message = (a, b, c) => a + b + c; // bir qatorga yozilgda return shart emas
+
+// console.log(message("ab", "bb", "cb"));
+
 // const app = message;
 // app("r", "t", "o");
+
+// const app = () => "Hello Vue.js";
+
+// console.log(app());
+
+//---> default parameter
+
+const app = (a = "Vue") => {
+  console.log(a);
+};
+app("React");
