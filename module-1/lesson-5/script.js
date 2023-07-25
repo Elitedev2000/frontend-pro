@@ -82,3 +82,14 @@ if ((ball >= 150) || (ielts >= 5 && usd >= 5000)) {
 // }
 
 // sayMyName('Samandar', 'Programmer', 'web')
+
+// function counter(a, b) {
+//   console.log(`${a}+${b}=${a + b}`);
+// }
+
+// counter(10, 34);
+
+
+// ---> function expression
+
+
