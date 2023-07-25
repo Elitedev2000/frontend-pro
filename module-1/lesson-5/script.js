@@ -107,5 +107,12 @@ if ((ball >= 150) || (ielts >= 5 && usd >= 5000)) {
 
 // test("A", "B", "C");
 
-
 // ---> arrow function
+
+// const message = (a, b, c) => {
+//   console.log(a, b, c);
+// };
+
+// message("ab", "bb", "cb");
+// const app = message;
+// app("r", "t", "o");
