@@ -71,4 +71,9 @@ if ((ball >= 150) || (ielts >= 5 && usd >= 5000)) {
 
 // for
 
-for()
+// for (let n = 0; n < 2; n++) {
+//   console.log(n);
+// }
+
+
+// --> function declaration
