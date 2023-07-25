@@ -91,18 +91,21 @@ if ((ball >= 150) || (ielts >= 5 && usd >= 5000)) {
 
 // ---> function expression
 
-const calc = function (a, b, c) {
-  console.log(a);
-  console.log(b);
-  console.log(c);
-};
+// const calc = function (a, b, c) {
+//   console.log(a);
+//   console.log(b);
+//   console.log(c);
+// };
 
-calc("java", "vue", "nuxt");
+// calc("java", "vue", "nuxt");
 
-const letter = calc;
+// const letter = calc;
 
-letter("olma", "anor", "nok");
+// letter("olma", "anor", "nok");
 
-const test = letter;
+// const test = letter;
 
-test("A", "B", "C");
+// test("A", "B", "C");
+
+
+// ---> arrow function
