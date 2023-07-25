@@ -74,7 +74,7 @@ if ((ball >= 150) || (ielts >= 5 && usd >= 5000)) {
 //   console.log(n);
 // }
 
-// --> function declaration
+// ---> function declaration
 
 // function sayMyName(a, b, c) {
 //   console.log("Umidjon" + c);
@@ -84,10 +84,10 @@ if ((ball >= 150) || (ielts >= 5 && usd >= 5000)) {
 // sayMyName('Samandar', 'Programmer', 'web')
 
 // function counter(a, b) {
-//   console.log(`${a}+${b}=${a + b}`);
+//   return 123 / a;
 // }
 
-// counter(10, 34);
+// console.log(counter(10));
 
 // ---> function expression
 
