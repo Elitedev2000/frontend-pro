@@ -89,7 +89,20 @@ if ((ball >= 150) || (ielts >= 5 && usd >= 5000)) {
 
 // counter(10, 34);
 
-
 // ---> function expression
 
+const calc = function (a, b, c) {
+  console.log(a);
+  console.log(b);
+  console.log(c);
+};
 
+calc("java", "vue", "nuxt");
+
+const letter = calc;
+
+letter("olma", "anor", "nok");
+
+const test = letter;
+
+test("A", "B", "C");
